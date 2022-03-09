@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer tests should render and match snapshot 1`] = `
+<styled.footer
+  className="footer"
+>
+  <styled.div>
+    Icons made by  
+    <a
+      href="https://www.flaticon.com/authors/dighital"
+      title="Dighital"
+    >
+      Dighital
+    </a>
+      from  
+    <a
+      href="https://www.flaticon.com/"
+      title="Flaticon"
+    >
+      www.flaticon.com
+    </a>
+  </styled.div>
+</styled.footer>
+`;
