@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Tests should render with profile and match snapshot 1`] = `
+<styled.header
+  className="header"
+>
+  <styled.div
+    className="header-title"
+  >
+    <h1>
+      dev-jot
+    </h1>
+    <img
+      alt="note icon"
+      src="sticky_note-white.svg"
+    />
+  </styled.div>
+  <styled.div
+    className="profile"
+  >
+    <div
+      className="avatar"
+    >
+      <styled.img
+        alt="avatar"
+        referrerpolicy="no-referrer"
+        src="#"
+      />
+    </div>
+  </styled.div>
+</styled.header>
+`;
+
+exports[`Header Tests should render without profile and match snapshot 1`] = `
+<styled.header
+  className="header"
+>
+  <styled.div
+    className="header-title"
+  >
+    <h1>
+      dev-jot
+    </h1>
+    <img
+      alt="note icon"
+      src="sticky_note-white.svg"
+    />
+  </styled.div>
+</styled.header>
+`;
