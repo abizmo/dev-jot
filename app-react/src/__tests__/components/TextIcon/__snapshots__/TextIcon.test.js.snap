@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextIcon tests should render and match snapshot 1`] = `
+<h2
+  style={
+    Object {
+      "color": "white",
+    }
+  }
+>
+  <img
+    src="some icon"
+  />
+   
+  some text
+</h2>
+`;
